@@ -1,0 +1,20 @@
+Package: medslcleanR2
+Title: Field and file cleaning for MEDSL elections data. 
+Version: 0.0.0.9000
+Authors@R: c(person("John", "Curiel", role = c("aut", "trl", "cre"),
+		    email = "jcuriel@mit.edu"))
+Description: The medslcleanR2 pakcage offers a set of tools to clean fields and scytl data, and
+	create maps. The 
+   	name_cleanR function finds strings that are likely matches within the series of constraints
+	that the user specifies for the purpose of catching spelling errors. The scytl cleaners in 
+	turn work so as to read in a set of excel files downloaded from a scytl site and cleaning/
+	compiling the data to be processed into MEDSL appropriate data. These functions therefore work
+	to standardize and simplify the precinct cleaning process for our elections data. 
+Depends: R (>= 2.12.0)
+Imports: stringr, stringi, rlang, readxl, tidyr, rgdal, BAMMtools, sp
+License: General 
+Author: John Curiel [aut, trl, cre] (S original)
+Maintainer: John Curiel <jcuriel@mit.edu>
+Encoding: UTF-8
+Date/Publication: 2020-04-10 12:10:00 EST
+RoxygenNote: 7.1.0
